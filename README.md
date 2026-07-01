@@ -108,25 +108,6 @@ filter, stats, validation) and the CSV round-trip:
 mvn test
 ```
 
-## What changed from the original
-
-The original was a working prototype; this version keeps its concept and MVC
-intent while fixing and extending it:
-
-- **One source of truth.** The old code kept two parallel lists (`ar` and the
-  collectionneur) that drifted out of sync; they are replaced by a single
-  `VehicleCollection`.
-- **Delete actually works.** The old "sell" only removed the item at index 0;
-  any selected vehicle can now be edited or deleted.
-- **Correct string comparisons.** `==` on strings (brand/model/colour/type) is
-  replaced by proper `equals`, fixing search and existence checks.
-- **No hard-coded paths.** Absolute image paths (`/home/mint/…`) are replaced by
-  file-name lookup with a placeholder fallback.
-- **Pure Swing.** Mixed AWT (`List`, `Label`) and Swing is replaced by a
-  consistent Swing UI with a real `JTable`.
-- **Added:** persistence, statistics, edit dialog, live search & filters, image
-  scaling, validation, year/price/spec fields, Maven build, and unit tests.
-
 ## License
 
 Released under the [MIT License](LICENSE).
