@@ -1,0 +1,6 @@
+type,brand,model,color,year,price,image,spec
+CAR,Renault,Clio,Noir,2019,15000.0,clio_noir.jpg,5.0
+CAR,Audi,A7,Rouge,2020,55000.0,audi_a7.jpg,4.0
+MOTORCYCLE,Yamaha,MT-07,Noir,2021,7500.0,yahama_kawazaki.jpg,689.0
+MOTORCYCLE,BMW,Motorrad,Noir,2022,12000.0,bmw_moto.jpg,1250.0
+TRUCK,Mercedes-Benz,Actros,Blanc,2018,90000.0,mercedes_actros.jpg,26.0

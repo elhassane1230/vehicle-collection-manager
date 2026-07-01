@@ -1,0 +1,18 @@
+# Build output
+target/
+build/
+*.class
+
+# Runtime data (the live collection; keep the sample)
+data/collection.csv
+*_export.csv
+
+# Editor / OS
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+bin/
+.vscode/
+.DS_Store
